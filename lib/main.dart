@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'pages/home_page.dart';
 import 'pages/performance_page.dart';
 import 'state/app_settings.dart';
@@ -12,7 +13,6 @@ class KpssTarihApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // themeModeNotifier her değiştiğinde MaterialApp yeniden çizilir
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: themeModeNotifier,
       builder: (context, currentMode, _) {
@@ -37,36 +37,91 @@ class MainScaffold extends StatefulWidget {
 }
 
 class _MainScaffoldState extends State<MainScaffold> {
-  int _currentIndex = 0;
+  int _index = 0;
 
-  final List<Widget> _pages = const [
-    HomePage(),
-    PerformancePage(),
-  ];
-
-  void _onTabTapped(int index) {
-    setState(() {
-      _currentIndex = index;
-    });
-  }
+  static const _pages = [HomePage(), PerformancePage()];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _pages[_currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        onTap: _onTabTapped,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Ana Sayfa',
+      extendBody: true,
+      body: IndexedStack(index: _index, children: _pages),
+      bottomNavigationBar: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(72, 0, 72, 12),
+          child: Container(
+            height: 64,
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+            decoration: BoxDecoration(
+              color: const Color(0xFF0B0B0D),
+              borderRadius: BorderRadius.circular(40),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: .18),
+                  blurRadius: 24,
+                  offset: const Offset(0, 8),
+                ),
+              ],
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                _NavItem(
+                  icon: Icons.home_rounded,
+                  tooltip: 'Ana Sayfa',
+                  selected: _index == 0,
+                  onTap: () => setState(() => _index = 0),
+                ),
+                _NavItem(
+                  icon: Icons.pie_chart_rounded,
+                  tooltip: 'Performans',
+                  selected: _index == 1,
+                  onTap: () => setState(() => _index = 1),
+                ),
+              ],
+            ),
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
-            label: 'Performans',
+        ),
+      ),
+    );
+  }
+}
+
+class _NavItem extends StatelessWidget {
+  final IconData icon;
+  final String tooltip;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _NavItem({
+    required this.icon,
+    required this.tooltip,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Tooltip(
+      message: tooltip,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTap: onTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 220),
+          curve: Curves.easeOut,
+          width: 50,
+          height: 50,
+          decoration: BoxDecoration(
+            color: selected ? Colors.white : Colors.transparent,
+            shape: BoxShape.circle,
           ),
-        ],
+          child: Icon(
+            icon,
+            size: 24,
+            color: selected ? Colors.black : Colors.white60,
+          ),
+        ),
       ),
     );
   }
