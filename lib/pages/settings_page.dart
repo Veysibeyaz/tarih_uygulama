@@ -9,7 +9,7 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final muted = cs.onSurface.withValues(alpha: .55);
+    final muted = cs.onSurfaceVariant;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Ayarlar')),
@@ -53,19 +53,17 @@ class SettingsPage extends StatelessWidget {
                               height: 22,
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
-                                color: isSel ? kAccent : Colors.transparent,
+                                color: isSel ? cs.primary : Colors.transparent,
                                 border: Border.all(
-                                  color: isSel
-                                      ? kAccent
-                                      : cs.onSurface.withValues(alpha: .25),
+                                  color: isSel ? cs.primary : cs.outlineVariant,
                                   width: 1.5,
                                 ),
                               ),
                               child: isSel
-                                  ? const Icon(
+                                  ? Icon(
                                       Icons.check_rounded,
                                       size: 15,
-                                      color: Colors.white,
+                                      color: cs.onPrimary,
                                     )
                                   : null,
                             ),
@@ -95,7 +93,6 @@ class SettingsPage extends StatelessWidget {
                       icon: isDark
                           ? Icons.dark_mode_rounded
                           : Icons.light_mode_rounded,
-                      color: kBlue,
                       size: 40,
                     ),
                     const SizedBox(width: 14),
@@ -123,7 +120,6 @@ class SettingsPage extends StatelessWidget {
                     ),
                     Switch(
                       value: isDark,
-                      activeColor: kAccent,
                       onChanged: (v) => themeModeNotifier.value = v
                           ? ThemeMode.dark
                           : ThemeMode.light,
@@ -138,11 +134,7 @@ class SettingsPage extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
             child: Row(
               children: [
-                const IconTile(
-                  icon: Icons.info_outline_rounded,
-                  color: kAccent,
-                  size: 40,
-                ),
+                const IconTile(icon: Icons.info_outline_rounded, size: 40),
                 const SizedBox(width: 14),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

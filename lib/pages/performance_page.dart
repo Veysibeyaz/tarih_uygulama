@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../state/app_settings.dart';
 import '../widgets/ui.dart';
 
 class PerformancePage extends StatelessWidget {
@@ -10,16 +9,16 @@ class PerformancePage extends StatelessWidget {
   static const _weekDays = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
   static const _weekly = [24, 18, 9, 21, 33, 27, 12];
   static const _topics = [
-    ('İslamiyet Öncesi Türk Tarihi', 0.72, kAccent),
-    ('Osmanlı Devleti Kuruluş', 0.55, kOrange),
-    ('Kurtuluş Savaşı', 0.38, kBlue),
-    ('Atatürk İlkeleri', 0.20, kRed),
+    ('İslamiyet Öncesi Türk Tarihi', 0.72),
+    ('Osmanlı Devleti Kuruluş', 0.55),
+    ('Kurtuluş Savaşı', 0.38),
+    ('Atatürk İlkeleri', 0.20),
   ];
 
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    final muted = cs.onSurface.withValues(alpha: .55);
+    final muted = cs.onSurfaceVariant;
     final maxV = _weekly.reduce((a, b) => a > b ? a : b);
 
     return SafeArea(
@@ -43,7 +42,6 @@ class PerformancePage extends StatelessWidget {
                   label: 'Çözülen soru',
                   value: '144',
                   icon: Icons.check_circle_rounded,
-                  color: kAccent,
                 ),
               ),
               const SizedBox(width: 12),
@@ -52,7 +50,6 @@ class PerformancePage extends StatelessWidget {
                   label: 'Başarı oranı',
                   value: '%68',
                   icon: Icons.trending_up_rounded,
-                  color: kBlue,
                 ),
               ),
             ],
@@ -92,8 +89,8 @@ class PerformancePage extends StatelessWidget {
                               height: 120 * _weekly[i] / maxV,
                               decoration: BoxDecoration(
                                 color: top
-                                    ? kAccent
-                                    : cs.onSurface.withValues(alpha: .85),
+                                    ? cs.primary
+                                    : cs.onSurface.withValues(alpha: .14),
                                 borderRadius: BorderRadius.circular(99),
                               ),
                             ),
@@ -137,7 +134,7 @@ class PerformancePage extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 8),
-                  SlimProgress(value: _topics[i].$2, color: _topics[i].$3),
+                  SlimProgress(value: _topics[i].$2),
                 ],
               ],
             ),
@@ -152,12 +149,10 @@ class _StatCard extends StatelessWidget {
   final String label;
   final String value;
   final IconData icon;
-  final Color color;
   const _StatCard({
     required this.label,
     required this.value,
     required this.icon,
-    required this.color,
   });
 
   @override
@@ -167,7 +162,7 @@ class _StatCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          IconTile(icon: icon, color: color, size: 40),
+          IconTile(icon: icon, size: 40),
           const SizedBox(height: 14),
           Text(
             value,
@@ -180,10 +175,7 @@ class _StatCard extends StatelessWidget {
           const SizedBox(height: 2),
           Text(
             label,
-            style: TextStyle(
-              fontSize: 13,
-              color: cs.onSurface.withValues(alpha: .55),
-            ),
+            style: TextStyle(fontSize: 13, color: cs.onSurfaceVariant),
           ),
         ],
       ),

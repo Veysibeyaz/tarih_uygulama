@@ -22,25 +22,37 @@ final Map<String, DateTime> examDates = {
   'KPSS Ortaöğretim': DateTime(2027, 10, 24, 10, 15),
 };
 
-/// Ana vurgu rengi (yeşil) ve modül renkleri
-const Color kAccent = Color(0xFF22B14C);
-const Color kOrange = Color(0xFFF08A24);
-const Color kBlue = Color(0xFF4A6CF7);
-const Color kRed = Color(0xFFE5484D);
+/// Test geri bildirim renkleri (her iki modda ortak)
+const Color kCorrect = Color(0xFF10B981); // Zümrüt yeşili
+const Color kWrong = Color(0xFFEF4444); // Canlı kırmızı
 
 ThemeData _build(Brightness b) {
   final dark = b == Brightness.dark;
-  final surface = dark ? const Color(0xFF1B1E26) : Colors.white;
-  final bg = dark ? const Color(0xFF0F1115) : const Color(0xFFEEEEF0);
-  final text = dark ? const Color(0xFFF2F3F5) : const Color(0xFF17181C);
+
+  final bg = dark ? const Color(0xFF0F172A) : const Color(0xFFF8F6F0);
+  final surface = dark ? const Color(0xFF1E293B) : Colors.white;
+  final text = dark ? const Color(0xFFF1F5F9) : const Color(0xFF1E293B);
+  final muted = dark ? const Color(0xFF94A3B8) : const Color(0xFF64748B);
+  final accent = dark ? const Color(0xFFF59E0B) : const Color(0xFFC25E38);
+  final onAccent = dark ? const Color(0xFF0F172A) : Colors.white;
+  final outline = dark ? const Color(0xFF334155) : const Color(0xFFEBE6D8);
+
+  final scheme = ColorScheme.fromSeed(seedColor: accent, brightness: b)
+      .copyWith(
+        primary: accent,
+        onPrimary: onAccent,
+        surface: surface,
+        onSurface: text,
+        onSurfaceVariant: muted,
+        outlineVariant: outline,
+        error: kWrong,
+      );
+
   return ThemeData(
     useMaterial3: true,
     brightness: b,
+    colorScheme: scheme,
     scaffoldBackgroundColor: bg,
-    colorScheme: ColorScheme.fromSeed(
-      seedColor: kAccent,
-      brightness: b,
-    ).copyWith(surface: surface, onSurface: text, primary: kAccent),
     cardColor: surface,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.transparent,
@@ -53,6 +65,15 @@ ThemeData _build(Brightness b) {
         fontSize: 17,
         fontWeight: FontWeight.w600,
       ),
+    ),
+    switchTheme: SwitchThemeData(
+      thumbColor: WidgetStateProperty.resolveWith(
+        (s) => s.contains(WidgetState.selected) ? onAccent : muted,
+      ),
+      trackColor: WidgetStateProperty.resolveWith(
+        (s) => s.contains(WidgetState.selected) ? accent : outline,
+      ),
+      trackOutlineColor: WidgetStateProperty.all(Colors.transparent),
     ),
   );
 }

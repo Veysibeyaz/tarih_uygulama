@@ -43,6 +43,8 @@ class _MainScaffoldState extends State<MainScaffold> {
 
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    final dark = Theme.of(context).brightness == Brightness.dark;
     return Scaffold(
       extendBody: true,
       body: IndexedStack(index: _index, children: _pages),
@@ -53,8 +55,9 @@ class _MainScaffoldState extends State<MainScaffold> {
             height: 64,
             padding: const EdgeInsets.symmetric(horizontal: 8),
             decoration: BoxDecoration(
-              color: const Color(0xFF0B0B0D),
+              color: dark ? cs.surface : cs.onSurface,
               borderRadius: BorderRadius.circular(40),
+              border: dark ? Border.all(color: cs.outlineVariant) : null,
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withValues(alpha: .18),
@@ -102,6 +105,7 @@ class _NavItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
     return Tooltip(
       message: tooltip,
       child: GestureDetector(
@@ -113,13 +117,15 @@ class _NavItem extends StatelessWidget {
           width: 50,
           height: 50,
           decoration: BoxDecoration(
-            color: selected ? Colors.white : Colors.transparent,
+            color: selected ? cs.primary : Colors.transparent,
             shape: BoxShape.circle,
           ),
           child: Icon(
             icon,
             size: 24,
-            color: selected ? Colors.black : Colors.white60,
+            color: selected
+                ? cs.onPrimary
+                : cs.onSurfaceVariant.withValues(alpha: .9),
           ),
         ),
       ),

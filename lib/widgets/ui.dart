@@ -1,27 +1,27 @@
 import 'package:flutter/material.dart';
 
-/// Yumuşak köşeli, gölgesiz, sade kart.
+/// Yumuşak köşeli, gölgesiz, ince çerçeveli sade kart.
 class AppCard extends StatelessWidget {
   final Widget child;
   final EdgeInsets padding;
   final double radius;
-  final Color? color;
 
   const AppCard({
     super.key,
     required this.child,
     this.padding = const EdgeInsets.all(16),
     this.radius = 22,
-    this.color,
   });
 
   @override
   Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
     return Container(
       padding: padding,
       decoration: BoxDecoration(
-        color: color ?? Theme.of(context).colorScheme.surface,
+        color: cs.surface,
         borderRadius: BorderRadius.circular(radius),
+        border: Border.all(color: cs.outlineVariant),
       ),
       child: child,
     );
@@ -53,10 +53,7 @@ class SectionHeader extends StatelessWidget {
           if (trailing != null)
             Text(
               trailing!,
-              style: TextStyle(
-                fontSize: 13,
-                color: cs.onSurface.withValues(alpha: .55),
-              ),
+              style: TextStyle(fontSize: 13, color: cs.onSurfaceVariant),
             ),
         ],
       ),
@@ -64,20 +61,15 @@ class SectionHeader extends StatelessWidget {
   }
 }
 
-/// Renkli ikon kutusu
+/// Vurgu renginde ikon kutusu
 class IconTile extends StatelessWidget {
   final IconData icon;
-  final Color color;
   final double size;
-  const IconTile({
-    super.key,
-    required this.icon,
-    required this.color,
-    this.size = 44,
-  });
+  const IconTile({super.key, required this.icon, this.size = 44});
 
   @override
   Widget build(BuildContext context) {
+    final color = Theme.of(context).colorScheme.primary;
     return Container(
       width: size,
       height: size,
@@ -93,8 +85,8 @@ class IconTile extends StatelessWidget {
 /// İnce ilerleme çubuğu
 class SlimProgress extends StatelessWidget {
   final double value; // 0..1
-  final Color color;
-  const SlimProgress({super.key, required this.value, required this.color});
+  final Color? color;
+  const SlimProgress({super.key, required this.value, this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -104,8 +96,8 @@ class SlimProgress extends StatelessWidget {
       child: LinearProgressIndicator(
         value: value,
         minHeight: 5,
-        color: color,
-        backgroundColor: cs.onSurface.withValues(alpha: .08),
+        color: color ?? cs.primary,
+        backgroundColor: cs.outlineVariant,
       ),
     );
   }

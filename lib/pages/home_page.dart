@@ -43,28 +43,24 @@ class HomePage extends StatelessWidget {
           const SectionHeader('Çalışma alanın'),
           const _ModuleCard(
             icon: Icons.menu_book_rounded,
-            color: kAccent,
             title: 'Konu Özetleri',
             subtitle: 'Kısa, net ve akılda kalıcı notlar',
           ),
           const SizedBox(height: 12),
           const _ModuleCard(
             icon: Icons.bolt_rounded,
-            color: kOrange,
             title: 'Flashcard\'lar',
             subtitle: 'Hızlı aktif hatırlama kartları',
           ),
           const SizedBox(height: 12),
           const _ModuleCard(
             icon: Icons.edit_note_rounded,
-            color: kBlue,
             title: 'Testler',
             subtitle: 'Konu bazlı denemeler ve çözümler',
           ),
           const SizedBox(height: 12),
           const _ModuleCard(
             icon: Icons.replay_circle_filled_rounded,
-            color: kRed,
             title: 'Tekrar & Yanlışlar',
             subtitle: 'Zayıf noktaları eritme havuzu',
           ),
@@ -114,14 +110,18 @@ class _CountdownCardState extends State<_CountdownCard> {
         final m = diff.inMinutes % 60;
         final s = diff.inSeconds % 60;
 
+        final cs = Theme.of(context).colorScheme;
+        final dark = Theme.of(context).brightness == Brightness.dark;
         return Container(
           padding: const EdgeInsets.fromLTRB(20, 18, 20, 22),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(26),
-            gradient: const LinearGradient(
+            gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Color(0xFF34363C), Color(0xFF141518)],
+              colors: dark
+                  ? const [Color(0xFF2B3A55), Color(0xFF1E293B)]
+                  : const [Color(0xFF334155), Color(0xFF1E293B)],
             ),
             boxShadow: [
               BoxShadow(
@@ -145,7 +145,7 @@ class _CountdownCardState extends State<_CountdownCard> {
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Icon(Icons.flag_rounded, size: 16, color: kAccent),
+                    Icon(Icons.flag_rounded, size: 16, color: cs.primary),
                     const SizedBox(width: 8),
                     Text(
                       '2027 $group',
@@ -161,7 +161,7 @@ class _CountdownCardState extends State<_CountdownCard> {
               const SizedBox(height: 16),
               const Text(
                 'Sınava kalan süre',
-                style: TextStyle(color: Colors.white54, fontSize: 13),
+                style: TextStyle(color: Color(0xFF94A3B8), fontSize: 13),
               ),
               const SizedBox(height: 4),
               Row(
@@ -172,7 +172,7 @@ class _CountdownCardState extends State<_CountdownCard> {
                   Text(
                     '$days',
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: Color(0xFFF1F5F9),
                       fontSize: 52,
                       fontWeight: FontWeight.w700,
                       height: 1.1,
@@ -181,7 +181,7 @@ class _CountdownCardState extends State<_CountdownCard> {
                   const SizedBox(width: 8),
                   const Text(
                     'gün',
-                    style: TextStyle(color: Colors.white70, fontSize: 18),
+                    style: TextStyle(color: Color(0xFFCBD5E1), fontSize: 18),
                   ),
                 ],
               ),
@@ -189,7 +189,7 @@ class _CountdownCardState extends State<_CountdownCard> {
               Text(
                 '${_two(h)} sa  ${_two(m)} dk  ${_two(s)} sn',
                 style: const TextStyle(
-                  color: Colors.white60,
+                  color: Color(0xFF94A3B8),
                   fontSize: 14,
                   fontFeatures: [FontFeature.tabularFigures()],
                 ),
@@ -204,13 +204,11 @@ class _CountdownCardState extends State<_CountdownCard> {
 
 class _ModuleCard extends StatelessWidget {
   final IconData icon;
-  final Color color;
   final String title;
   final String subtitle;
 
   const _ModuleCard({
     required this.icon,
-    required this.color,
     required this.title,
     required this.subtitle,
   });
@@ -227,7 +225,7 @@ class _ModuleCard extends StatelessWidget {
         },
         child: Row(
           children: [
-            IconTile(icon: icon, color: color, size: 48),
+            IconTile(icon: icon, size: 48),
             const SizedBox(width: 14),
             Expanded(
               child: Column(
@@ -244,10 +242,7 @@ class _ModuleCard extends StatelessWidget {
                   const SizedBox(height: 3),
                   Text(
                     subtitle,
-                    style: TextStyle(
-                      fontSize: 13,
-                      color: cs.onSurface.withValues(alpha: .55),
-                    ),
+                    style: TextStyle(fontSize: 13, color: cs.onSurfaceVariant),
                   ),
                 ],
               ),
@@ -257,7 +252,7 @@ class _ModuleCard extends StatelessWidget {
               height: 36,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                border: Border.all(color: cs.onSurface.withValues(alpha: .1)),
+                border: Border.all(color: cs.outlineVariant),
               ),
               child: Icon(
                 Icons.chevron_right_rounded,
@@ -293,7 +288,11 @@ class _RoundIconButton extends StatelessWidget {
         child: Container(
           width: 44,
           height: 44,
-          decoration: BoxDecoration(color: cs.surface, shape: BoxShape.circle),
+          decoration: BoxDecoration(
+            color: cs.surface,
+            shape: BoxShape.circle,
+            border: Border.all(color: cs.outlineVariant),
+          ),
           child: Icon(icon, size: 22, color: cs.onSurface),
         ),
       ),
