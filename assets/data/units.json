@@ -1,0 +1,67 @@
+{
+  "units": [
+    {
+      "id": "islamiyet_oncesi",
+      "title": "İslamiyet Öncesi Türk Tarihi",
+      "subtitle": "Hunlar, Göktürkler, Uygurlar ve diğer devletler",
+      "emoji": "🏹",
+      "file": "assets/data/islamiyet_oncesi.json"
+    },
+    {
+      "id": "islamiyet_sonrasi",
+      "title": "İslamiyet Sonrası Türk Tarihi",
+      "subtitle": "İlk Türk-İslam devletleri, Selçuklular",
+      "emoji": "🕌",
+      "file": null
+    },
+    {
+      "id": "osmanli_kurulus",
+      "title": "Osmanlı Devleti Kuruluş Dönemi",
+      "subtitle": "Kuruluştan Fetret Devri'ne",
+      "emoji": "🌱",
+      "file": null
+    },
+    {
+      "id": "osmanli_yukselme",
+      "title": "Osmanlı Devleti Yükselme Dönemi",
+      "subtitle": "İstanbul'un fethinden Kanuni dönemine",
+      "emoji": "🏰",
+      "file": null
+    },
+    {
+      "id": "osmanli_duraklama",
+      "title": "Osmanlı Devleti Duraklama Dönemi",
+      "subtitle": "Savaşlar, isyanlar ve ıslahat çabaları",
+      "emoji": "⚖️",
+      "file": null
+    },
+    {
+      "id": "osmanli_gerileme",
+      "title": "Osmanlı Devleti Gerileme Dönemi",
+      "subtitle": "Karlofça'dan Küçük Kaynarca'ya",
+      "emoji": "📉",
+      "file": null
+    },
+    {
+      "id": "osmanli_dagilma",
+      "title": "Osmanlı Devleti Dağılma Dönemi",
+      "subtitle": "Tanzimat, Meşrutiyet, I. Dünya Savaşı",
+      "emoji": "📜",
+      "file": null
+    },
+    {
+      "id": "kurtulus_savasi",
+      "title": "Kurtuluş Savaşı Dönemi",
+      "subtitle": "Hazırlık, cepheler ve Lozan",
+      "emoji": "🚩",
+      "file": null
+    },
+    {
+      "id": "ataturk_donemi",
+      "title": "Atatürk Dönemi ve İnkılaplar",
+      "subtitle": "Cumhuriyet'in kuruluşu ve ilkeler",
+      "emoji": "🇹🇷",
+      "file": null
+    }
+  ]
+}

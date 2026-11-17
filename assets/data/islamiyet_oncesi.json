@@ -1,0 +1,295 @@
+{
+  "unit": "İslamiyet Öncesi Türk Tarihi (Siyasi Tarih)",
+  "topics": [
+    {
+      "id": "ad_ana_yurt_kultur",
+      "title": "Türk Adı, Ana Yurt ve Kültür Merkezleri",
+      "subtitle": "Türk adının anlamları, ilk kaynaklar, kültür merkezleri",
+      "sections": [
+        {
+          "title": "İlk Ana Yurt (Orta Asya)",
+          "bullets": [
+            {"text": "Tanrı, Kingan, Karanlık ve Altay Dağları ile Sibirya, Balkaş Gölü ve Hazar Denizi çevresidir."},
+            {"text": "Günümüzde ağırlıklı olarak Moğolistan, Kazakistan, Çin ve Hindistan'ın bir kısmına denk gelir."}
+          ],
+          "keywords": ["Orta Asya", "Altay Dağları", "Balkaş Gölü"]
+        },
+        {
+          "title": "Türk Adının Anlamları",
+          "table": {
+            "headers": ["Kaynak / Kişi", "Anlam"],
+            "rows": [
+              ["Çin kaynakları", "Miğfer (zırhlı, güçlü)"],
+              ["Kaşgarlı Mahmut", "Olgunluk çağı"],
+              ["Ziya Gökalp", "Kanun ve nizam sahibi, töreli"],
+              ["Vambery", "Türemek"],
+              ["Doerfer", "Devlete bağlı halk"],
+              ["İran kaynakları", "Güzel insan"],
+              ["Diğer anlamlar", "Güçlü, kuvvetli, terk edilmiş"]
+            ]
+          }
+        },
+        {
+          "title": "İlk Kaynaklar",
+          "bullets": [
+            {"label": "Türk adı", "text": "İlk kez Çin kaynaklarında geçer."},
+            {"label": "Devlet ismi olarak", "text": "İlk kez Göktürklerde geçer."},
+            {"label": "Türkiye adı", "text": "İlk kez Bizans kaynaklarında (önce Orta Asya, sonra Anadolu için) kullanılmıştır."}
+          ],
+          "keywords": ["Çin kaynakları", "Göktürk", "Bizans kaynakları"]
+        },
+        {
+          "title": "Kültür Merkezleri",
+          "table": {
+            "headers": ["Kültür Merkezi", "Temel Özelliği"],
+            "rows": [
+              ["Anav", "Orta Asya'nın en eski kültür merkezidir."],
+              ["Afanasyevo", "En eski Türk kültür merkezidir."],
+              ["Tagar", "En gelişmiş kültür merkezidir."],
+              ["Andronova", "Türklerin atalarının yaşadığı kültür merkezidir."],
+              ["Karasuk", "İlk demirin işlendiği kültür merkezidir."],
+              ["Kelteminar", "Yerleşik yaşamın görüldüğü kültür merkezidir."]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "goc_nedenleri",
+      "title": "Orta Asya Türk Göçleri",
+      "subtitle": "Göçlerin nedenleri ve sonuçları",
+      "sections": [
+        {
+          "title": "Nedenleri",
+          "bullets": [
+            {"label": "İklim", "text": "Kuraklık, kar fırtınaları, kıtlık ve iklimin tarım-hayvancılığa elverişsiz olması."},
+            {"label": "Nüfus", "text": "Hızlı nüfus artışı ve kaynakların tükenmesi."},
+            {"label": "Hayvan hastalıkları", "text": "Sürülerin telef olması göçü hızlandırmıştır."},
+            {"label": "Boylar arası mücadele", "text": "Yenilen boyun hakimiyeti tanımaması."},
+            {"label": "Dış neden", "text": "Çin, Kitan ve Moğol baskısı."},
+            {"label": "Diğer", "text": "Yeni yerler görme merakı ve Türk cihan hakimiyeti mefkuresi."}
+          ],
+          "keywords": ["Kuraklık", "Nüfus artışı", "Çin baskısı", "Cihan hakimiyeti"]
+        },
+        {
+          "title": "Sonuçları",
+          "bullets": [
+            {"text": "Türk kültürü geniş coğrafyalara yayıldı."},
+            {"text": "Yeni Türk devletleri kuruldu."},
+            {"text": "Din ve dil yapıları değişti."},
+            {"text": "Türk tarihinin bir bütün içinde incelenmesi zorlaştı."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iskitler",
+      "title": "İskitler (Sakalar)",
+      "subtitle": "Bilinen ilk Türk boyu",
+      "sections": [
+        {
+          "title": "Genel Özellikler",
+          "bullets": [
+            {"text": "Bilinen ilk Türk boyudur (devlet değil); Kırım Yarımadası civarında yaşadılar."},
+            {"text": "Saka adını İranlılar verdi."},
+            {"label": "Önemli hükümdarlar", "text": "Alper Tunga (Şehname'de Afrasiyab) ve kadın hükümdar Tomris Hatun."},
+            {"text": "Amazon adlı kadın savaşçıları vardır."}
+          ],
+          "keywords": ["Alper Tunga", "Tomris Hatun", "Amazon", "Kırım"]
+        },
+        {
+          "title": "Kültür ve Sanat",
+          "bullets": [
+            {"text": "Atı evcilleştirip üzengiyi ilk kez kullandılar."},
+            {"text": "Maden işçiliğindeki ustalıkları nedeniyle “Bozkır'ın Kuyumcuları” unvanını aldılar."},
+            {"text": "İlk kez balbal dikip hayvan üslubunu kullandılar."},
+            {"text": "Herodot gümüş işçiliği ve dişçilikteki ustalıklarından bahsetti."}
+          ],
+          "keywords": ["Üzengi", "Balbal", "Hayvan üslubu", "Herodot"]
+        }
+      ]
+    },
+    {
+      "id": "asya_hun",
+      "title": "Asya Hun Devleti",
+      "subtitle": "Bilinen ilk Türk devleti",
+      "sections": [
+        {
+          "title": "Kuruluş ve Teoman",
+          "bullets": [
+            {"text": "Bilinen ilk Türk devletidir."},
+            {"label": "Kurucusu", "text": "Teoman."},
+            {"label": "Başkent", "text": "Ötüken (“toprak ana / kutsal bölge” olarak anılır)."},
+            {"text": "Çinliler Hun akınlarını durdurmak için Çin Seddi'ni inşa etti."}
+          ],
+          "keywords": ["Teoman", "Ötüken", "Çin Seddi"]
+        },
+        {
+          "title": "En Parlak Dönem (Mete Han)",
+          "bullets": [
+            {"text": "Tanhu/Şanyu unvanını aldı."},
+            {"text": "Toprak vermeyerek vatan sevgisinden bahseden ilk Türk hükümdarı oldu."},
+            {"text": "26 Türk kavmini birleştirip Orta Asya'da ilk Türk siyasi birliğini sağladı."},
+            {"text": "Orduda onlu sistemi kurdu (MÖ 209)."},
+            {"text": "Payteng Muharebesi'nde tarihte ilk kez Turan taktiğini (sahte ricat) uyguladı."},
+            {"text": "Asimile olmamak için Çin'i vergiye bağladı."}
+          ],
+          "keywords": ["Mete Han", "Onlu sistem", "Turan taktiği", "Payteng", "MÖ 209"]
+        },
+        {
+          "title": "Yıkılışı",
+          "bullets": [
+            {"text": "Kiyok sonrası Çin entrikaları ve lükse özenti arttı."},
+            {"text": "Hohanyeh–Çiçi mücadelesi sonrası devlet doğu-batı ve kuzey-güney olarak bölündü."},
+            {"text": "Devlet Çin tarafından yıkıldı."},
+            {"label": "Hohanyeh'in sözü", "text": "“İstiklali feda etmeyi gülünç ve utanç verici bulurum.”"}
+          ],
+          "keywords": ["Kiyok", "Hohanyeh", "Çiçi"]
+        }
+      ]
+    },
+    {
+      "id": "kavimler_gocu_avrupa_hun",
+      "title": "Kavimler Göçü ve Avrupa Hun Devleti",
+      "subtitle": "375, Balamir, Uldız ve Attila dönemi",
+      "sections": [
+        {
+          "title": "Kavimler Göçü (375)",
+          "bullets": [
+            {"text": "Çin baskısı üzerine Balamir önderliğindeki Hunların batıya göçüyle barbar kavimler yer değiştirdi."},
+            {"text": "Roma 395'te ikiye ayrıldı (Batı Roma 476'da yıkıldı)."},
+            {"text": "Avrupa'da feodalite, Kilise ve skolastik düşünce güçlendi; Hristiyanlık yayıldı."},
+            {"text": "İlk Çağ kapandı, Orta Çağ başladı."}
+          ],
+          "keywords": ["375", "Balamir", "395", "476", "Orta Çağ"]
+        },
+        {
+          "title": "Avrupa Hun Devleti (Macaristan)",
+          "bullets": [
+            {"label": "Kurucusu", "text": "Balamir."},
+            {"label": "Uldız dönemi", "text": "Anadolu'ya akınlar yapıldı."},
+            {"text": "Keşiş Efraim: “Yecüc ve Mecüc'ün atlıları.”"},
+            {"text": "Uldız'ın Bizans elçisine sözü: “Güneşin battığı yere kadar her yeri zapt ederim.”"}
+          ],
+          "keywords": ["Uldız", "Efraim", "Yecüc ve Mecüc"]
+        },
+        {
+          "title": "Attila Dönemi",
+          "bullets": [
+            {"text": "En parlak dönemdir."},
+            {"text": "Doğu Roma ile Margos (434) ve Anatolius (447) antlaşmaları imzalanarak Bizans vergiye bağlandı."},
+            {"label": "Roma'yı almaktan vazgeçme nedenleri", "text": "Papa I. Leo'nun ricası, Roma'nın kutsallığı, Sasani tehlikesi, salgın hastalık ve Batı Roma'nın gücünün kırılması."},
+            {"label": "Unvanları", "text": "“Tanrı'nın Kırbacı”, “Tanrı'nın Kılıcı”, “Cesur Kavimlerin Efendisi”."},
+            {"text": "Nibelungen Destanı'nda Etzel adıyla yer aldı."}
+          ],
+          "keywords": ["Attila", "Margos 434", "Anatolius 447", "Papa I. Leo", "Nibelungen"]
+        }
+      ]
+    },
+    {
+      "id": "avrupa_diger",
+      "title": "Avrupa'ya Göç Eden Diğer Türkler",
+      "subtitle": "Avarlar, Peçenekler, Macarlar, Bulgarlar, Hazarlar, Kıpçaklar",
+      "sections": [
+        {
+          "title": "Devlet ve Boylar",
+          "table": {
+            "headers": ["Devlet / Boy", "Öne Çıkan Bilgiler"],
+            "rows": [
+              ["Avarlar", "Kurucu Bayan Han; Çin kaynaklarında Juan Juan, Göktürklerde Apar. Hem Orta Asya'da hem Avrupa'da devlet kurdular. 619 ve 626'da Sasanilerle İstanbul'u kuşatan ilk Türk devleti oldular. Üzengiyi Avrupa'ya taşıdılar."],
+              ["Uzlar (Oğuzlar)", "Oğuzların Hristiyan olan koludur. Bizans'ta ücretli askerlik yapıp Malazgirt'te taraf değiştirdiler; günümüzde Romanya ve Moldova'da Gagavuz Türkleri olarak yaşarlar."],
+              ["Peçenekler", "Tarih boyunca devlet kuramayıp boy halinde yaşadılar. Bizans'ta ücretli askerlik yapıp Malazgirt'te taraf değiştirdiler. 1090'da Çaka Bey ile İstanbul'u kuşattılar; Bizans'ın Kumanlardan yardım istemesiyle yenildiler."],
+              ["Macarlar", "896'da Arpad önderliğinde kurulup soylarını Attila'ya dayandırdılar; 10. yy'da Hristiyan oldular. Tarihte ilk Türkoloji Enstitüsü'nü kurdular."],
+              ["Bulgarlar", "Kelime anlamı “karışmak”; Kubrat Han ile kuruldu, sonra ikiye ayrıldı. Tuna Bulgarları: Asparuh, Kurum, Omurtak; Boris Han Hristiyan oldu, Simon Çar unvanını aldı. İtil Bulgarları: İlterber Almış Han ile İslamiyet'i kabul eden ilk Müslüman Türk devleti; İbn Fadlan – Rihle."],
+              ["Hazarlar", "Museviliği kabul eden ilk ve tek Türk devleti. Kürk Yolu ile zenginleştiler; hoşgörü dönemine Paks Hazarya, davalara bakan kurula Hakimler Heyeti denir. İslam öncesinde ordusuna ücretli asker alan ilk ve tek Türk devleti; Türgişlerle birlikte Emevileri durdurdular."],
+              ["Sibirler", "“Yoldan sapan” anlamına gelir; Sibirya'ya adını verdiler. Önemli yöneticileri Boğarık Hatun'dur; Kayseri, Ankara ve Konya'ya akınlar düzenlediler."],
+              ["Kıpçaklar (Kumanlar)", "Sarı/solgun anlamında; Ruslar Polovest dedi, yurtlarına Deşt-i Kıpçak denir. Oğuzlarla mücadeleleri Dede Korkut'a, Ruslarla mücadeleleri İgor Destanı'na konu oldu. Codex Cumanicus sözlüğünü oluşturdular."]
+            ]
+          },
+          "keywords": ["Avarlar", "Peçenekler", "Macarlar", "Bulgarlar", "Hazarlar", "Kıpçaklar", "Codex Cumanicus"]
+        }
+      ]
+    },
+    {
+      "id": "gokturk",
+      "title": "Göktürkler",
+      "subtitle": "I. Göktürk ve II. Göktürk (Kutluk) Devleti",
+      "sections": [
+        {
+          "title": "I. Göktürk Devleti (552)",
+          "bullets": [
+            {"text": "Türk adıyla kurulan ilk Türk devletidir."},
+            {"text": "Aşina boyundan Bumin Kağan (İl Kağan), Avarları yenerek Ötüken'de kurdu."},
+            {"text": "Batı kanadını ikili teşkilatla İstemi Yabgu yönetti."},
+            {"label": "En parlak dönem", "text": "Mukan Kağan zamanıdır (ikinci kez Türk siyasi birliği)."},
+            {"text": "İstemi Yabgu, Sasanilerle anlaşıp Akhunlara son verdi ve Bizans'a ilk elçiyi gönderdi (Maniakh–Zemarkhos)."},
+            {"text": "Tapo Kağan'ın Budist olmasıyla halkla arası açıldı."},
+            {"text": "Tardu–İşbara mücadelesi sonrası 582'de doğu-batı diye bölünüp 50 yıllık Çin esaretine girdiler."},
+            {"text": "İşbara Kağan'ın asimilasyona karşı sözleri; 639 Kürşat Ayaklanması ve Nişufu bu dönemin önemli olaylarındandır."}
+          ],
+          "keywords": ["Bumin Kağan", "İstemi Yabgu", "Mukan Kağan", "Tapo Kağan", "582", "Kürşat"]
+        },
+        {
+          "title": "II. Göktürk / Kutluk Devleti",
+          "bullets": [
+            {"text": "Vezir Tonyukuk (Apa Tarkan, Türklerin Bismark'ı, ilk Türk tarihçi ve yazar) ve Kutluk Kağan (İlteriş, 17 erle başlangıç, Çin'e 46 sefer) 50 yıllık esarete son verdi."},
+            {"text": "Kapkan Kağan Demir Kapı'ya ulaştı."},
+            {"text": "Bilge Kağan'ın Budizm ve surlarla çevrili şehir teklifine Tonyukuk karşı çıktı."},
+            {"text": "Orhun Abideleri ve ilk Türk alfabesi (Göktürk alfabesi) bu dönemde ortaya çıktı."},
+            {"text": "Batı Türkistan Türkleşti."},
+            {"text": "Karluk, Basmil ve Uygurlarca yıkıldı."}
+          ],
+          "keywords": ["Tonyukuk", "Kutluk Kağan", "Kapkan Kağan", "Bilge Kağan", "Orhun Abideleri", "Göktürk alfabesi"]
+        }
+      ]
+    },
+    {
+      "id": "uygur",
+      "title": "Uygurlar",
+      "subtitle": "Yerleşik hayata geçiş ve Uygur ilkleri",
+      "sections": [
+        {
+          "title": "Siyasi Tarih",
+          "bullets": [
+            {"text": "Kutluk Bilge Kül Kağan tarafından Ötüken'de kuruldu; başkent daha sonra Ordu Balık'a (Karabalsagun) taşındı."},
+            {"label": "En parlak dönem", "text": "Moyen Çor (Bayan Çor) zamanıdır (751 Talas sonrası Tarım havzası)."},
+            {"text": "Bögü Kağan'ın 4 rahiple Maniheizm'i benimsemesiyle köklü değişim yaşandı."},
+            {"text": "Kırgızlar tarafından yıkıldılar (Sarı ve Turfan Uygurları)."},
+            {"text": "Moğollar devlet memuru olarak çalışan Uygurlara “Benim Hocam” demiştir."}
+          ],
+          "keywords": ["Ordu Balık", "Moyen Çor", "Bögü Kağan", "Maniheizm", "Kırgızlar"]
+        },
+        {
+          "title": "Yerleşik Yaşam ve İlkler",
+          "bullets": [
+            {"text": "Hayvansal gıdalar yasaklanıp tarıma geçildi (Çinli seyyah Wang Yen-te tarım ve refahı övdü)."},
+            {"label": "Uygurlarla öne çıkanlar", "text": "Şehirler/tapınaklar, Ay ve Kün unvanları, fresk (bedizci), minyatür, harf hareketli matbaa, kütüphane, örgün eğitim, orta oyunu (tiyatro), pandomim/şan/opera, törelerin yazılı hale getirilmesi, kağıt para (çav), vakıf, bankacılık/faiz, nişadır ihracatı, akupunktur ve çiçek aşısı."}
+          ],
+          "keywords": ["Tarım", "Minyatür", "Matbaa", "Çav", "Vakıf", "Orta oyunu"]
+        }
+      ]
+    },
+    {
+      "id": "orta_asya_diger",
+      "title": "Diğer Orta Asya Türk Devletleri",
+      "subtitle": "Kırgız, Karluk, Türgiş, Akhun, Tabgaç, Oğuz",
+      "sections": [
+        {
+          "title": "Devlet ve Topluluklar",
+          "table": {
+            "headers": ["Devlet / Boy", "Temel Özellikleri"],
+            "rows": [
+              ["Kırgızlar", "Uygurları yıktılar; Yenisey Kitabeleri ve Manas Destanı'nı oluşturdular. Cengiz Han'a itaat eden ilk Türk devleti olup dünya tarihinde milletlerarası ilk yarışmaları düzenlediler."],
+              ["Karluklar", "751 Talas Savaşı'nda Abbasileri desteklediler; İslamiyet'i kabul eden ilk Türk topluluğu ve Cengiz Han'a itaat eden ilk Müslüman Türk topluluğudurlar. Karahanlıların kuruluşunda rol oynadılar."],
+              ["Türgişler", "Baga Tarkan kendi adına para bastıran ilk Türk hükümdarıdır. Sulu Kağan Emevilerin Orta Asya'daki ilerleyişini durdurdu; Sarı ve Kara Türgişler olarak ikiye ayrıldılar."],
+              ["Akhunlar (Eftalitler)", "Afganistan ve Orta Doğu'da hüküm sürdüler; Sasanilerdeki Mazdek İsyanı'nı bastırdılar; Göktürk-Sasani işbirliğiyle yıkıldılar."],
+              ["Tabgaçlar / Başkırtlar", "Tabgaçlar Kuzey Çin'de 200 yıl egemenlik kurdu. Başkırtlar günümüzde Rusya içinde Başkurdistan otonom yapısına sahiptir."],
+              ["Oğuzlar / Kimekler", "Oğuzlar (“kalabalık/boy”) Oğuz Yabgu Devleti'ni kurup İslamiyet sonrası Büyük Selçuklu, Anadolu Selçuklu ve Osmanlı'yı kurdular. Kimekler Göktürk egemenliğinde yaşamış bir Türk boyudur."]
+            ]
+          },
+          "keywords": ["Kırgızlar", "Karluklar", "Türgişler", "Akhunlar", "Tabgaçlar", "Oğuzlar"]
+        }
+      ]
+    }
+  ]
+}
