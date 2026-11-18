@@ -1,0 +1,205 @@
+{
+  "unit": "İlk Türk İslam Devletleri (Siyasi Tarih)",
+  "topics": [
+    {
+      "id": "talas_ve_islamiyet",
+      "title": "Türklerin İslamiyet’i Kabulü ve Talas Savaşı (751)",
+      "subtitle": "Talas Savaşı, Abbasilerin hoşgörü politikası, kağıdın yayılışı ve İslamiyet’e geçişin sonuçları",
+      "sections": [
+        {
+          "title": "Talas (Atlık / Taraz) Savaşı (751)",
+          "bullets": [
+            {"label": "Neden ve Taraflar", "text": "Çinlilerin bir Türk beyini öldürmesi üzerine Karluklar Abbasilerden yardım istedi. 5 gün süren savaşın 5. gününde Karlukların Abbasilerin yanında savaşa girmesiyle Çinliler yenildi."},
+            {"label": "Mevali Politikası ve Hoşgörü", "text": "Emevilerin Arap olmayan Müslümanları ikinci sınıf gören Mevali politikasını Abbasiler uygulamadı. Türklerin savaşçı gücünden yararlanmak için Samarra ve Bizans sınırında Avasım şehirleri kuruldu."},
+            {"label": "Sonuçlar", "text": "Karluklar başta olmak üzere Türkler kitleler halinde Müslüman olmaya başladı. Batı Türkistan’ın Çinlileşmesi engellendi; Tarım havzası Uygurların eline geçti. Esir Çinlilerden kağıt, matbaa, mürekkep, pusula ve barut öğrenildi; kağıt Çin dışında ilk kez Semerkant’ta üretildi."}
+          ],
+          "keywords": ["Talas Savaşı", "Karluklar", "Abbasiler", "Mevali", "Samarra", "Avasım", "Semerkant"]
+        },
+        {
+          "title": "Önemli Türk İslam Şehirleri ve Unvanları",
+          "table": {
+            "headers": ["Şehir", "Unvan"],
+            "rows": [
+              ["Semerkant", "Şehirlerin Şahı"],
+              ["Kaşgar", "Kaşi (Işıldayan İnci)"],
+              ["Buhara", "İslam’ın Roma’sı"],
+              ["İsfahan", "Nısf-ı Cihan"]
+            ]
+          },
+          "keywords": ["Semerkant", "Kaşgar", "Buhara", "İsfahan"]
+        },
+        {
+          "title": "Türklerin İslamiyet’i Kabul Etmesinin Sonuçları",
+          "bullets": [
+            {"text": "Müslümanları Bizans baskısından korudular ve Haçlı Seferlerine karşı savaştılar."},
+            {"text": "İslamiyet’i dünyanın dört bir yanına yaydılar; fethedilen bölgelere Türkçe ve Arapça isimler verdiler."},
+            {"text": "Önemli bilim insanları yetiştirip mimari ve edebi eserler ortaya çıkardılar."}
+          ],
+          "keywords": ["Haçlı Seferleri", "İslam Dünyası", "Kültür ve Bilim"]
+        }
+      ]
+    },
+    {
+      "id": "karahanlilar_ve_gazneliler",
+      "title": "Karahanlılar ve Gazneliler",
+      "subtitle": "Orta Asya’da kurulan ilk büyük Müslüman Türk devleti ve Hindistan seferleri",
+      "sections": [
+        {
+          "title": "Karahanlılar (840–1212)",
+          "bullets": [
+            {"label": "Kuruluş ve Boylar", "text": "Orta Asya’da kurulan ilk büyük Müslüman Türk devletidir. Merkezi Balasagun, kurucusu Bilge Kül Kadir Han’dır (Satuk Buğra Han değildir). Karluk, Yağma, Çiğil ve Tuhsi Türk boylarınca kuruldu."},
+            {"label": "Ulusçuluk ve Gelenek", "text": "Yöneticileri ve halkı tamamen Türk’tür; resmi dil Türkçe (Uygur alfabesi) olduğu için ulusçudur. Han/Hakan unvanları ve ikili teşkilatla eski Türk geleneklerini sürdürdüler."},
+            {"label": "İslamiyet ve İlkler", "text": "Satuk Buğra Han döneminde İslamiyet kabul edildi (Abdülkerim adını aldı). Tamgaç Buğra Han Semerkant Medresesi’ni açıp tarihte ilk burslu öğrencilik sistemini başlattı. İlk Türk İslam yazılı edebi eserleri (Kutadgu Bilig, Divan-ı Lügati’t-Türk, Atabetü’l-Hakayık, Divan-ı Hikmet), ilk gulam sistemi ve ribat adı verilen kale-kervansaraylar Karahanlılarda görüldü."},
+            {"label": "Yıkılış", "text": "Doğu ve Batı olarak ikiye ayrıldılar; Harzemşahlar ve Karahıtaylar tarafından yıkıldılar."}
+          ],
+          "keywords": ["Bilge Kül Kadir Han", "Satuk Buğra Han", "Karluk-Yağma-Çiğil-Tuhsi", "Burslu Öğrencilik", "Ribat", "Gulam"]
+        },
+        {
+          "title": "Gazneliler / Yeminiler (963–1187)",
+          "bullets": [
+            {"label": "Kuruluş ve Sultan Mahmut", "text": "Afganistan’ın Gazne kentinde Alp Tigin tarafından kuruldu (kurulduğu yerin adını aldı). Sebük Tigin oğlu Mahmut’a Pendname’yi yazdı. Gazneli Mahmut, Abbasileri Şii Büveyhoğullarına karşı koruyunca Abbasi halifesi ona tarihte ilk kez \"Sultan\" unvanını verdi (ayrıca Alemin Aslanı, Zamanın Yeganesi)."},
+            {"label": "Hindistan Seferleri ve Somnat", "text": "İslamiyet’i yaymak, yeraltı-yerüstü zenginliklerini ele geçirmek ve bölücü mezhepleri önlemek için Hindistan’a 17 sefer düzenledi; Pakistan ve Bangladeş’in temellerini attı. 16. sefer olan Somnat (Sumnat) Seferi’nde Şiva tapınağındaki putları kırdığı için \"Put Kırıcı\" unvanını aldı. İlk 4 sefere Biruni de katıldı (Tahkiku Ma li’l-Hind)."},
+            {"label": "Yıkılış", "text": "Selçuklularla yapılan 1035 Nesa, 1038 Serahs ve 1040 Dandanakan savaşlarını kaybederek yıkılış sürecine girdiler. Geniş coğrafyada çok uluslu yapı nedeniyle devlet-millet bağı zayıfladı; Afgan yerli kabilesi Gurlular tarafından yıkıldılar."}
+          ],
+          "keywords": ["Alp Tigin", "Gazneli Mahmut", "Sultan", "Somnat", "Put Kırıcı", "Biruni", "Dandanakan", "Gurlular"]
+        }
+      ]
+    },
+    {
+      "id": "buyuk_selcuklu",
+      "title": "Büyük Selçuklu (Horasan Selçukluları) Devleti (1040–1157)",
+      "subtitle": "Kuruluş, Tuğrul Bey, Sultan Alparslan, Malazgirt, Sultan Melikşah ve yıkılış",
+      "sections": [
+        {
+          "title": "Kuruluş ve Tuğrul Bey Dönemi",
+          "bullets": [
+            {"label": "Köken ve Kuruluş", "text": "Demiryaylı Dukak Bey Cent şehrinde Müslüman oldu; oğlu Selçuk Bey boyu yönetti. Arslan Yabgu’nun Gazneli Mahmut tarafından Kalincar Kalesi’ne hapsedilmesi sonrası Mikail’in oğulları Tuğrul ve Çağrı Beyler başa geçti. 1040 Dandanakan Savaşı ile İran’da devlet kuruldu (başkentler: Nişabur, Rey, İsfahan; resmi dil Farsça)."},
+            {"label": "İlk Bizans Mücadeleleri", "text": "Çağrı Bey 1015–1021 arasında Anadolu’ya keşif akınları yaptı. Büyük Zap Suyu çarpışmasının ardından 1048 Pasinler Savaşı’nda Bizans yenildi ve Gürcü Kralı Liparit esir alındı."},
+            {"label": "Bağdat Seferi (1055–1058)", "text": "Tuğrul Bey, Şii Büveyhoğullarının elindeki Abbasi halifesini kurtardı; Arslan Besasiri’yi ortadan kaldırarak Büveyhoğullarına son verdi. Halife tarafından kendisine \"Doğunun ve Batının Hükümdarı\" unvanı verildi; halife dini, sultan siyasi yetkileri üstlendi."}
+          ],
+          "keywords": ["Dukak Bey", "Cent", "Dandanakan", "Tuğrul Bey", "Çağrı Bey", "Pasinler", "Liparit", "Bağdat Seferi"]
+        },
+        {
+          "title": "Sultan Alparslan ve Malazgirt Zaferi (1071)",
+          "bullets": [
+            {"label": "Vezir Nizamülmülk ve Ani", "text": "Alparslan vezirliğe Nizamülmülk’ü getirdi. 1064’te Ani Kalesi’ni (Bin Kilise) fethedince Abbasi halifesi kendisine \"Ebu’l-Feth\" (Fetihlerin Babası) unvanını verdi."},
+            {"label": "Malazgirt Meydan Muharebesi (1071)", "text": "Muş Malazgirt Rahve Ovası’nda Romen Diyojen’in ordusuna karşı Turan taktiği uygulandı; Bizans ordusundaki Peçenekler, Uzlar ve Kumanlar taraf değiştirdi. Romen Diyojen esir düştü ve Alparslan’a \"İslam Ülkelerinin Sultanı\" unvanı verildi."},
+            {"label": "Sonuçlar", "text": "Anadolu’nun kapısı Türklere açıldı (\"Yurt Açan\" savaş; Miryokefalon: Yurt Tutan, Büyük Taarruz: Yurt Kurtaran). Kılıç hakkı anlayışıyla Anadolu’da ilk Türk beylikleri kuruldu; Bizans’ın Avrupa’dan yardım istemesi Haçlı Seferlerine zemin hazırladı."}
+          ],
+          "keywords": ["Alparslan", "Nizamülmülk", "Ani", "Ebu'l-Feth", "Malazgirt", "Romen Diyojen", "Yurt Açan"]
+        },
+        {
+          "title": "Sultan Melikşah Dönemi ve Yıkılış (1157)",
+          "bullets": [
+            {"label": "En Parlak Dönem (Melikşah)", "text": "Gürcistan, Kudüs, Şam, Yemen ve Aden fethedildi; halife Melikşah’a da \"Doğunun ve Batının Hükümdarı\" unvanını verdi. Ancak Hasan Sabbah liderliğindeki Batinilik (Haşhaşilik) suikastları (Vezir Nizamülmülk’ün şehit edilmesi) ve iç sorunlar bu dönemde başladı. Urfalı Mateos Vekayinamesi’nde Alparslan ve Melikşah dönemlerini anlattı."},
+            {"label": "Yıkılış Nedenleri", "text": "Melikşah sonrası Mahmut, Berk Yaruk, Muhammed Tapar ve Sultan Sencer arasındaki taht kavgaları; Batinilik suikastları; Abbasilerin gizli faaliyetleri; Melik ve Atabeylerin bağımsızlık çabaları; 1141 Katvan Savaşı’nın Karahıtaylara kaybedilmesi; Oğuzların isyan edip Sultan Sencer’i esir alması ve Sencer’in vefatıyla devlet 1157’de yıkıldı."}
+          ],
+          "keywords": ["Melikşah", "Hasan Sabbah", "Batinilik", "Urfalı Mateos", "Katvan Savaşı", "Sultan Sencer"]
+        },
+        {
+          "title": "Yıkılışın Ardından Kurulan Devlet ve Atabeylikler",
+          "table": {
+            "headers": ["Tür", "Adlar"],
+            "rows": [
+              ["Selçuklu Devletleri", "Irak Selçukluları, Kirman Selçukluları, Suriye Selçukluları, Türkiye (Anadolu) Selçukluları"],
+              ["Atabeylikler", "Şam Atabeyliği (Börüler), Musul ve Halep Atabeyliği (Zengiler), Azerbaycan Atabeyliği (İldenizliler), Fars Atabeyliği (Salgurlular)"]
+            ]
+          },
+          "keywords": ["Atabeylikler", "Zengiler", "Börüler", "İldenizliler", "Salgurlular"]
+        }
+      ]
+    },
+    {
+      "id": "misir_turk_islam_devletleri",
+      "title": "Mısır’da Kurulan Türk İslam Devletleri",
+      "subtitle": "Tolunoğulları, İhşidiler, Eyyubiler ve Memlükler",
+      "sections": [
+        {
+          "title": "Mısır’da Kurulan Türk İslam Devletleri",
+          "table": {
+            "headers": ["Devlet", "Öne Çıkan Özellikler"],
+            "rows": [
+              ["Tolunoğulları (868–905)", "Mısır’da kurulan ilk Türk İslam devleti ve bir Tevaif-i Mülk devletidir. Kurucusu Tolunoğlu Ahmet, en parlak dönemi Humareveyh zamanıdır. Sulama kanalları, bentler, Tolunoğlu Camii ve ücretsiz sağlık/ilaç hizmeti veren Maristan hastanelerini kurdular; Abbasilerce yıkıldılar."],
+              ["İhşidiler / Akşitler (935–969)", "Mısır’da kurulan ikinci Türk İslam ve Tevaif-i Mülk devletidir. Kurucusu Muhammed bin Togaç’tır (İhşid: prens; Akşit: nur yüzlü/parlak). Hicaz’a (Mekke-Medine) egemen olan ilk Türk İslam devletidir; Fatimilerce yıkıldılar."],
+              ["Eyyubiler (1174–1250)", "Kurucusu Selahaddin Eyyubi’dir (Mısır, Ortadoğu, Yemen, Hicaz ve Kuzey Afrika). 1187 Hıttin Savaşı ile Haçlıları yenip Kudüs’ü geri aldı. \"Hadimü’l-Haremeyn\", \"İslam’ın Saf Kahramanı\" ve \"Şarkın En Sevgili Sultanı\" unvanlarını aldı."],
+              ["Memlükler / Ed-Devletü’t-Türkiyye (1250–1517)", "Anlamı köle/kölemen, kurucusu Aybek’tir. Veraset sistemleri farklıdır (her emir sultan olabilirdi). Resmi dilleri Türkçe ve Arapçadır. Abbasiler yıkılınca halifeliği korudular; 1260 Ayn Calut ve 1277 Elbistan savaşlarında Moğolları yendiler. 1516 Mercidabık ve 1517 Ridaniye savaşlarıyla Yavuz Sultan Selim tarafından yıkıldılar."]
+            ]
+          },
+          "keywords": ["Tevaif-i Mülk", "Maristan", "Hicaz", "Hıttin Savaşı", "Hadimü'l-Haremeyn", "Ayn Calut", "Elbistan", "Ridaniye"]
+        },
+        {
+          "title": "Ortak ve Ayırt Edici Noktalar",
+          "bullets": [
+            {"label": "Kısa Ömürlülük Nedeni", "text": "Tolunoğulları ve İhşidilerin kısa ömürlü olmasında yöneticilerin Türk, halkın Arap olması (devlet-millet bütünlüğünün sağlanamaması) etkili olmuştur."},
+            {"label": "Halifelik Farkı", "text": "Memlüklerde halife yalnızca dini otorite olarak korunmuş, siyasi otorite sultanda kalmıştır (Osmanlı’da Yavuz sonrası ikisi birleşmiştir)."}
+          ],
+          "keywords": ["Devlet-Millet Bütünlüğü", "Halifelik", "Veraset Sistemi"]
+        }
+      ]
+    },
+    {
+      "id": "anadolu_ilk_beylikler",
+      "title": "Anadolu’da Kurulan İlk Türk İslam Beylikleri (DSMAÇ)",
+      "subtitle": "1071 Malazgirt sonrası kurulan ilk beylikler ve bıraktıkları eserler",
+      "sections": [
+        {
+          "title": "Beş Büyük Beylik (DSMAÇ)",
+          "table": {
+            "headers": ["Beylik", "Kuruluş Yeri, Eserler ve Öne Çıkan Özellikler"],
+            "rows": [
+              ["Danışmentliler", "Sivas, Tokat, Malatya ve Amasya civarında Danışment Ahmet Gazi kurdu. Haçlılarla mücadele ettiler. Kayseri Ulu Camii ve Anadolu’da yapılan ilk medrese olan Tokat Niksar Yağıbasan Medresesi’ni bıraktılar; Anadolu Selçuklu Devleti son verdi."],
+              ["Saltuklular", "Erzurum ve çevresinde Ebu’l-Kasım Saltuk tarafından 1072’de kuruldu (Anadolu’da kurulan ilk Türk İslam beyliği/devleti kabul edilir). Kale Camii, Tepsi Minare, Üç Kümbetler, Mama Hatun Türbesi ve Micingerd Kalesi eserleridir; Anadolu Selçuklu son verdi."],
+              ["Mengücekliler", "Erzincan ve Divriği’de Mengücek Gazi kurdu. 1921 ve 1939 Erzincan depremleri nedeniyle az eseri kalmıştır; Divriği Ulu Camii 1985’ten beri UNESCO korumasındaki ilk eserimizdir. Fizik ve tıp alimi Muvaffaküddin Abdüllatif sarayda desteklendi; Anadolu Selçuklu son verdi."],
+              ["Artuklular", "Harput, Mardin ve Hasankeyf olmak üzere üç şube halinde kuruldular. Malabadi Köprüsü, Hatuniye Medresesi, Necmettin Külliyesi, Kızıltepe Koçhisar Ulu Camii ve Semanin Medresesi eserleridir. Marco Polo dokumacılıklarını övmüş, robotik ve sibernetik kurucusu El-Cezeri bu dönemde yaşamıştır; Anadolu Selçuklu son verdi."],
+              ["Çaka Beyliği", "İzmir’de ilk Türk denizcisi Çaka Bey tarafından kuruldu. 1081’de kurduğu donanma Deniz Kuvvetleri Komutanlığının kuruluş yıldönümüdür. Bizans’ın I. Kılıç Arslan’ı kışkırtması sonucu Çaka Bey öldürüldü ve Bizans toprakları geri aldı. Günümüze ulaşan eseri yoktur."]
+            ]
+          },
+          "keywords": ["Yağıbasan Medresesi", "Mama Hatun", "Divriği Ulu Camii", "UNESCO", "Malabadi Köprüsü", "El-Cezeri", "Çaka Bey"]
+        },
+        {
+          "title": "Beş Küçük Beylik",
+          "bullets": [
+            {"text": "Bitlis’te Dilmaçoğulları, Harput’ta Çubukoğulları, Efes’te Tanrıvermişoğulları, Ahlat’ta Ahlatşahlar (Sökmenliler) ve Diyarbakır’da İnaloğulları (Yınaloğulları) kurulmuştur."}
+          ],
+          "keywords": ["Dilmaçoğulları", "Çubukoğulları", "Tanrıvermişoğulları", "Ahlatşahlar", "İnaloğulları"]
+        }
+      ]
+    },
+    {
+      "id": "diger_turk_islam_devletleri",
+      "title": "Orta Asya ve Yakın Doğu’da Kurulan Diğer Türk İslam Devletleri",
+      "subtitle": "Akkoyunlular, Karakoyunlular, Safeviler, Babürler, Harzemşahlar, Timur ve Cengiz Hanlıkları",
+      "sections": [
+        {
+          "title": "Akkoyunlular, Karakoyunlular, Safeviler, Babürler, Harzemşahlar ve Timur",
+          "table": {
+            "headers": ["Devlet", "Temel Özellikler"],
+            "rows": [
+              ["Akkoyunlular", "Şii karakterli Türk devletidir; en önemli hükümdarı Uzun Hasan’dır. Kur’an-ı Kerim’i Türkçeye çevirdiler (ilk değil), Dede Korkut Hikayelerini yazıya geçirdiler. 1402 Ankara Savaşı sonrası Osmanlı’nın doğudaki rakibi oldular; 1473 Otlukbeli Savaşı’nda Fatih’e yenildiler. Ali Kuşçu, Celaleddin Devvani ve İsa Savcı bu dönemde yetişti."],
+              ["Karakoyunlular", "Kurucusu Bayram Hoca, başkenti Van Erciş’tir. Sünni olup Azerbaycan’ın Türkleşmesinde etkili oldular; Akkoyunlular son verdi."],
+              ["Safeviler", "İran’da Şah İsmail tarafından kurulan Şii karakterli Türk devletidir. 1514 Çaldıran Savaşı’nda Yavuz Sultan Selim’e yenildiler."],
+              ["Babürler (1526–1858)", "Hindistan’da Babür Şah kurdu ve hayatını Babürname’de (Vekayiname) anlattı. Şah Cihan eşi Mümtaz Mahal (Ercüment Banu Sultan) için Tac Mahal’i yaptırdı; İngiltere tarafından yıkıldılar."],
+              ["Harzemşahlar", "Harizm bölgesinde kurulup kendilerini Büyük Selçuklu’nun devamı saydılar. Otrar Faciası’nı (Vali İnalcık) yaşadılar; 1230 Yassıçemen Savaşı’nda Anadolu Selçuklu’ya yenildiler, İlhanlılar (Moğollar) son verdi."],
+              ["Timur Devleti", "Kendisi Türk, halkı Moğol olup \"Bilginler Devleti\" olarak anılır (Uluğ Bey, Ali Kuşçu, Hüseyin Baykara, Ali Şir Nevai). Türk tarihine iki zarar verdi: 1402 Ankara Savaşı ile Osmanlı’yı Fetret Devri’ne soktu ve Altın Orda’yı parçalayarak Rusların güçlenmesine yol açtı."]
+            ]
+          },
+          "keywords": ["Uzun Hasan", "Otlukbeli", "Erciş", "Çaldıran", "Tac Mahal", "Otrar Faciası", "Yassıçemen", "Timur"]
+        },
+        {
+          "title": "Cengiz İmparatorluğu ve Dağılmasıyla Kurulan Hanlıklar",
+          "table": {
+            "headers": ["Hanlık / Devlet", "Bölge ve Temel Özellik"],
+            "rows": [
+              ["Cengiz İmparatorluğu", "Temuçin 1206 kurultayında seçilip en geniş kara imparatorluğunu kurdu; Türk töresinden Yasaname-i Büzürg’ü oluşturdu. Sağlığında devleti dörde böldü."],
+              ["Altın Orda", "Karadeniz’in kuzeyinde kuruldu, Müslüman oldu; Timur saldırılarıyla hanlıklara bölünerek yıkıldı."],
+              ["Çağatay Hanlığı", "Doğu Türkistan’da kuruldu, Müslüman oldu; Timur Devleti tarafından yıkıldı."],
+              ["İlhanlılar", "İran’da kuruldu, Müslüman oldu; 1243 Kösedağ Savaşı ile Anadolu Selçuklu’yu yendi ve 1258’de Abbasilere son verdi."],
+              ["Kubilay Hanlığı", "Çin’de kuruldu; diğer üçünden farklı olarak Budizm’i benimsedi. Marco Polo bu devleti ziyaret etti."]
+            ]
+          },
+          "keywords": ["Yasaname-i Büzürg", "Altın Orda", "Çağatay", "İlhanlılar", "Kubilay", "Marco Polo"]
+        }
+      ]
+    }
+  ]
+}

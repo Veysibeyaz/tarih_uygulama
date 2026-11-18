@@ -1,0 +1,229 @@
+{
+  "unit": "İslamiyet Öncesi Türk Tarihi (Kültür ve Medeniyet)",
+  "topics": [
+    {
+      "id": "devlet_yonetimi",
+      "title": "Devlet Yönetimi ve Teşkilat",
+      "subtitle": "Devletin unsurları, hükümdarlık, kut, hatun, görevliler, ülküler, ikili teşkilat ve kurultay",
+      "sections": [
+        {
+          "title": "Devletin Unsurları ve Yönetim Anlayışı",
+          "bullets": [
+            {"label": "Devlet (İl / El)", "text": "Devlet 4 temel unsurdan oluşur: Oksızlık (bağımsızlık), Kün (halk), Ülke (toprak) ve Teşkilat."},
+            {"label": "Kut Anlayışı", "text": "Devleti yönetme yetkisinin Gök Tanrı tarafından bir hanedana (Hunlarda Tuku, Göktürklerde Aşina/Börü, Uygurlarda Yağlakar) verilmesidir. Kan yoluyla tüm erkek üyelere geçtiği için taht kavgalarına ve devletlerin kısa ömürlü olmasına yol açmıştır."},
+            {"label": "Küç ve Ülüş", "text": "Tanrı'nın hükümdara verdiği askeri güce Küç, ekonomik pay/hisse dağıtma yetkisine ise Ülüş denir."},
+            {"label": "Hükümdarın Görevleri", "text": "Dağınık boyları toplamak, halkı/açı doyurup çıplağı giydirmek (sosyal devlet anlayışı), ordunun başında sefere çıkmak, adaleti (könilik) sağlamak, bağımsızlığı korumak, töreleri uygulamak, yeni töre koymak ve kurultaya başkanlık etmektir."}
+          ],
+          "keywords": ["Oksızlık", "Kün", "Kut", "Küç", "Ülüş", "Sosyal Devlet"]
+        },
+        {
+          "title": "Hükümdarlık Unvanları ve Sembolleri",
+          "bullets": [
+            {"label": "Unvanlar", "text": "Han, Hakan, Kağan, Yabgu (batı kanadı), İlteber, İlik, Kara, İlteriş, İdikut, Erkin (Oğuzlarda), Şanyu, Tanhu, İlber ve Ay Tengri (Uygurlarda). Sultan, Padişah ve Şah İslamiyet sonrasında kullanılmıştır."},
+            {"label": "Semboller", "text": "Otağ (hükümdar çadırı; halkın çadırına yurt denir), Nevbet (davul), Tuğ (sancak), Kılıç, Yay (ok herkeste bulunduğu için sembol değildir), Kemer (kur), Kamçı (berge), Ordu, Toy (ziyafet), Örgin (taht), Kotuz (sorguç), Kama (bıçak) ve Yarlığ (ferman). Tıraz, hilat ve hutbe İslam sonrası sembollerdir."},
+            {"label": "Hatun (Katun)", "text": "Hakan'ın eşidir; devlet yönetiminde söz sahibidir, kurultaya katılır, kendine ait otağı ve askeri vardır, elçi kabul eder ve gerektiğinde devlet başkanlığına naiplik yapar. Fermanlar \"Hakan ile Hatun buyurur ki\" diye başlar; Göktürk parası ve Uygur bayrağında Hakan ile birlikte yer alır."}
+          ],
+          "keywords": ["Otağ", "Yurt", "Nevbet", "Tuğ", "Örgin", "Hatun", "Yarlığ"]
+        },
+        {
+          "title": "Devlet Görevlileri",
+          "table": {
+            "headers": ["Görevli / Kavram", "Görevi / Anlamı"],
+            "rows": [
+              ["Ayuki", "Hükümet"],
+              ["Aygucı / Üge", "Vezir (Başbakan)"],
+              ["Buyruk", "Bakan"],
+              ["Tudun", "Vergi memuru veya vali"],
+              ["Tutuk", "Askeri vali"],
+              ["Apa", "Sivil yönetici (ör. Apa Tarkan: Vezir Tonyukuk)"],
+              ["Ağılı / Ağılığ", "Hazineden sorumlu görevli"],
+              ["Otacı / Emçi", "Hekim"],
+              ["Bitikçi / Tamgacı", "Yazışma işlerinden sorumlu görevli"],
+              ["Tigin", "Hükümdar oğlu"],
+              ["İnanç / İnal / Ataman", "Tiginlerin eğitiminden sorumlu devlet adamı (Selçuklu: Atabey, Osmanlı: Lala)"],
+              ["Şad", "Hanedan üyesi ordu komutanı (ör. Kürşad)"]
+            ]
+          }
+        },
+        {
+          "title": "Üç Temel Ülkü, İkili Teşkilat ve Kurultay",
+          "bullets": [
+            {"label": "Ülküler", "text": "Türk Cihan Hakimiyeti Mefkuresi (güneşin doğduğu yerden battığı yere kadar dünyayı yönetme ideali), Nizam-ı Alem (dünya halklarını adaletle yönetme) ve Kızılelma (hedefe varıldıkça yenilenen uzun vadeli strateji)."},
+            {"label": "İkili Teşkilat", "text": "İlk kez Asya Hunlarında (Mete Han) uygulandı. Devletin merkezi Doğu'dur (kutsal, Hakan oturur); Batı kanadını ise iç işlerinde serbest, dışta doğuya bağlı olarak kardeş veya amca \"Yabgu\" unvanıyla yönetir. Zamanla Çin kışkırtmalarıyla taht kavgalarına yol açmıştır."},
+            {"label": "Kurultay (Toy / Kengeş)", "text": "Siyasi, sosyal, askeri, ekonomik ve dini meselelerin görüşüldüğü meclistir (soruya göre danışma veya karar organı). Yılda 2-3 kez (sayım ve ülüş için) ve olağanüstü durumlarda toplanır; Hakan yoksa Aygucı başkanlık eder. Din adamları (kam/baksı) kurultayda yer almaz. Üyelere Toygun, oturma düzenine Orun denir; töreye uymayan Hakan görevden alınabilir."}
+          ],
+          "keywords": ["Türk Cihan Hakimiyeti", "Kızılelma", "İkili Teşkilat", "Kurultay", "Toygun", "Orun"]
+        },
+        {
+          "title": "Diğer Türk Devletlerinde Meclis Adları",
+          "table": {
+            "headers": ["Devlet / Boy", "Meclis Adı"],
+            "rows": [
+              ["Tabgaçlar", "Nazırlar Meclisi"],
+              ["Hazarlar", "İhtiyarlar Meclisi"],
+              ["Peçenekler", "Komenton"],
+              ["Tuna Bulgarları", "Millet Meclisi"],
+              ["Avrupa Hunları", "Seçkinler Meclisi"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sosyal_hayat_ve_hukuk",
+      "title": "Sosyal Hayat ve Hukuk",
+      "subtitle": "Toplumsal hiyerarşi, konar-göçer yaşamın etkileri ve töre",
+      "sections": [
+        {
+          "title": "Toplumsal Yapı ve Sosyal Hayat",
+          "bullets": [
+            {"label": "Toplumsal Hiyerarşi (Alttan Üste)", "text": "Oguş (aile) → Uruk (sülale) → Boy / Bod → Budun / Bodun (millet) → İl / El (devlet)."},
+            {"label": "Aile ve Gelenekler", "text": "Monogami (tek eşli evlilik) görülür. Anneye Ög, babaya Kan, düğünlere Törün, halk eğlencelerine Şölen, bahar bayramına Nevruz, halkın kaldığı çadırlara Yurt adı verilir."}
+          ],
+          "keywords": ["Oguş", "Uruk", "Boy", "Budun", "İl", "Monogami", "Törün"]
+        },
+        {
+          "title": "Konar-Göçer Yaşamın Etkileri",
+          "bullets": [
+            {"text": "Bağımsızlık duyguları gelişmiştir."},
+            {"text": "Kalıcı mimari eser ve tarım (Uygurlara kadar) sınırlıdır; taşınabilir sanat eserleri yapılmıştır."},
+            {"text": "Yazı geç kullanılmış, sözlü hukuk (töre) gelişmiştir; hapis cezaları kısadır (10 günü geçmez)."},
+            {"text": "Toprak mülkiyeti gelişmemiş, sosyal sınıf ayrımı (kölecilik) görülmemiştir."},
+            {"text": "Dokumacılık, halıcılık ve çadırcılık gelişmiş; ordu-millet anlayışı ile hafif süvari birlikleri öne çıkmıştır."}
+          ],
+          "keywords": ["Konar-Göçer", "Taşınabilir Sanat", "Sınıf Ayrımı Yok", "Kısa Hapis"]
+        },
+        {
+          "title": "Hukuk ve Töre",
+          "bullets": [
+            {"label": "Töre", "text": "Sosyal düzeni sağlayan yazısız hukuk kurallarıdır. Kut anlayışıyla Hakanların koyduğu yasalar, kurultay kararları ve Türk gelenek-göreneklerinden oluşur. Hakan'ın isteğiyle kurultayda değişebilir."},
+            {"label": "Törenin 4 Değişmez Hükmü", "text": "Könilik (Adalet), Uzluk (İyilik), Tüzlük (Eşitlik) ve Kişilik (İnsanlık)."},
+            {"label": "Yargı ve Kavramlar", "text": "Mahkemeye Yargı, mahkeme başkanına Yargıcı / Yargan denir. Devlet ile vatandaşın karşılıklı görevlerini bildiren yazısız sözleşmeye Tüz, suç/günaha Yazuk adı verilir. Kısa hapis cezalarının yanında barış zamanı silah çekme veya bağlı at çalma gibi suçlarda idam uygulanmıştır."}
+          ],
+          "keywords": ["Töre", "Könilik", "Uzluk", "Tüzlük", "Kişilik", "Yargıcı", "Tüz"]
+        }
+      ]
+    },
+    {
+      "id": "ordu_teskilati",
+      "title": "Ordu Teşkilatı ve Askeri Yapı",
+      "subtitle": "Ordu-millet anlayışı, onlu sistem, savaş taktikleri ve dünyaya etkileri",
+      "sections": [
+        {
+          "title": "Ordu Yapısı ve Onlu Sistem",
+          "bullets": [
+            {"label": "Genel Özellikler", "text": "Ordu-millet anlayışı vardır; askerlik özel bir meslek değildir ve ordular ücretsizdir (ücretli asker alan Hazarlar hariç)."},
+            {"label": "Onlu Sistem (Mete Han)", "text": "10.000 kişi Tümen (Tümenbaşı), 1.000 kişi (Binbaşı), 100 kişi (Yüzbaşı), 10 kişi (Onbaşı). Mete Han'ın tahta çıktığı MÖ 209 tarihi Kara Kuvvetleri Komutanlığının kuruluş yıldönümüdür."},
+            {"label": "Askeri Kavramlar", "text": "Sü / Er (asker — \"Sü uyur düşman uymaz\"), Tarkan (ordu komutanı), Subaşı (Oğuzlarda ordu komutanı), Börü (Kağan muhafızları), Yelme (düşman durumunu öğrenen keşif/istihbarat birliği — Osmanlı'da Akıncı), Yaka (sınır), Tolga (miğfer), Çavuş oku (ıslıklı ok)."}
+          ],
+          "keywords": ["Ordu-Millet", "Onlu Sistem", "MÖ 209", "Sü", "Yelme", "Börü"]
+        },
+        {
+          "title": "Dünyaya Etkileri ve Savaş Taktikleri",
+          "bullets": [
+            {"label": "Dünyayı Etkileme", "text": "Türkler dünyayı en çok askerlik alanında etkilemiştir: Onlu sistem, atı evcilleştirme/süvari, üzengi, et konservesi (pastırma/bastırma), ceket (yelek), pantolon, deri kuşak ve çizme."},
+            {"label": "Taktikler", "text": "Turan (Hilal), Sahte Ricat (sahte geri çekilme), Kurt Kapanı ve Pusu. Turan taktiği ilk kez Payteng Savaşı'nda Mete Han tarafından, sonrasında Malazgirt (1071), Niğbolu (1396), Mohaç (1526) ve Büyük Taarruz'da uygulanmıştır."}
+          ],
+          "keywords": ["Üzengi", "Pastırma", "Turan Taktiği", "Sahte Ricat", "Kurt Kapanı"]
+        }
+      ]
+    },
+    {
+      "id": "din_ve_inanis",
+      "title": "Din ve İnanış",
+      "subtitle": "Gök Tanrı, inanç sistemleri, ölü gömme gelenekleri ve dini kavramlar",
+      "sections": [
+        {
+          "title": "Dinler ve İnançlar",
+          "bullets": [
+            {"label": "İnanılan Dinler", "text": "Temel inanç Gök Tanrı (Kök Tengri) dinidir. Göç, ticaret ve savaşlarla Maniheizm ve Budizm (Uygurlar), Musevilik (Hazarlar), Hristiyanlık (Avrupa'ya gidenler) ve İslamiyet'e girilmiştir."},
+            {"label": "İnanış Biçimleri", "text": "Şamanizm bir din değil inanıştır. Atalar Kültü (ölmüş atalara saygı ve mezar ziyaretleri — Attila'nın Margos Piskoposunun Hun mezarlarını soyması üzerine Balkan Seferi'ne çıkması) ile Tabiat Kuvvetlerine İnanma (Yer-Su-Gök inancı) yaygındır."},
+            {"label": "Din Adamları", "text": "Kam veya Baksı adı verilir (aynı zamanda şifacıdırlar). Ruhban sınıfı yoktur ve kurultayda yer almazlar."}
+          ],
+          "keywords": ["Gök Tanrı", "Şamanizm", "Atalar Kültü", "Kam", "Baksı"]
+        },
+        {
+          "title": "Ölü Gömme Gelenekleri ve Kavramlar",
+          "table": {
+            "headers": ["Kavram", "Anlamı ve Özelliği"],
+            "rows": [
+              ["Yuğ", "Cenaze / ağlama töreni (Yuğ aşı: cenaze yemeği; Sığıtçı: ağıtçı). Ahiret inancını kanıtlamaz."],
+              ["Kurgan", "Oda biçimli mezar; ölünün atı ve sevdiği eşyalarla gömülmesi ahiret inancını gösterir."],
+              ["Balbal (Bengütaş)", "Ölen kişinin sağlığında öldürdüğü düşman sayısı kadar dikilen mezar taşları (ahiret inancını gösterir)."],
+              ["Uçmağ / Tamu", "Uçmağ: Cennet (mezarlarda kuş sembolü ile gösterilir); Tamu: Cehennem."],
+              ["Eşük / Töz", "Eşük: Kefen, örtü; Töz: Ölen büyüğün hatırası olan küçük heykelcik."],
+              ["Muyan / Sakış Günü", "Muyan: Sevap; Sakış günü: Hesap verme / ahiret günü."]
+            ]
+          },
+          "keywords": ["Yuğ", "Kurgan", "Balbal", "Uçmağ", "Tamu", "Ahiret İnancı"]
+        }
+      ]
+    },
+    {
+      "id": "bilim_sanat_spor_ekonomi",
+      "title": "Bilim, Sanat, Spor ve Ekonomi",
+      "subtitle": "Takvimler, sanat dalları, müzik, spor, ticaret yolları ve paralar",
+      "sections": [
+        {
+          "title": "Bilim ve Takvim",
+          "bullets": [
+            {"label": "Bilim Dalları", "text": "Matematik, tıp, eczacılık ve astronomi ile uğraşılmıştır."},
+            {"label": "Takvimler", "text": "Bilim ve astronomi ile uğraşıldığının en büyük kanıtı Güneş yılı esaslı 12 Hayvanlı Türk Takvimi'dir. Türklerin tarih boyunca kullandığı takvimler: 12 Hayvanlı, Hicri, Celali, Rumi ve Miladi."}
+          ],
+          "keywords": ["Astronomi", "12 Hayvanlı Türk Takvimi", "Matematik"]
+        },
+        {
+          "title": "Sanat, Müzik ve Spor",
+          "bullets": [
+            {"label": "Sanat", "text": "Demircilik ve maden işlemeciliği milli sanattır; eserlerde hayvan üslubu ve konar-göçerlik nedeniyle taşınabilirlik öne çıkar. Dokumacılık/halıcılık (Pazırık Halısı — dünyanın en eski halısı), maden işlemeciliği (Altın Elbiseli Adam — Esik Kurganı), heykel/balbal, ahşap oymacılık ve Uygurlarla duvar resmi (fresk) ile minyatür gelişmiştir. Hat, ebru ve vitray İslamiyet öncesinde yoktur."},
+            {"label": "Müzik", "text": "Milli çalgı Kopuz'dur (diğer aletler kithara, çevgan); melodiye Küg, besteye Ir denir. Bizans elçisi Priskos, Attila'nın sarayındaki müzikleri anlatmıştır."},
+            {"label": "Spor ve Zeka Oyunu", "text": "Seyirtme (yaya yarışı), Tepük (futbol), Güreş (Kureş), Gökbörü, Cirit, Çevgen ve Kayak başlıca sporlardır. 48 taşla oynanan Türk strateji/zeka oyununun adı Mangala'dır."}
+          ],
+          "keywords": ["Hayvan Üslubu", "Pazırık Halısı", "Altın Elbiseli Adam", "Kopuz", "Mangala", "Tepük"]
+        },
+        {
+          "title": "Ekonomi, Ticaret Yolları ve Paralar",
+          "bullets": [
+            {"label": "Ekonomi", "text": "Temel geçim hayvancılık ve ticarettir; Uygurlarla tarım ön plana çıkmıştır. Hun buğdayı/fasulyesi, Göktürklerdeki Töte Kanalı, kurganlardaki tarım aletleri ve Kapkan Kağan'ın tohumluk darı istemesi tarımın daha önce de var olduğunu gösterir."},
+            {"label": "Ticaret Yolları", "text": "İpek Yolu (Çin'den Orta Asya, Anadolu ve Avrupa'ya) ile Kürk Yolu (Abakan bozkırlarından İtil-Volga-Kama-Tuna'ya; Hazarlar ve Sibirler yoğun kullandı) dünya transit ticaretinde kullanılmıştır."},
+            {"label": "Paralar", "text": "Parayı ticarette değişim aracı olarak kullanan ilk Türk devleti Göktürkler, kendi adına para bastıran ilk Türk hükümdarı Türgiş hükümdarı Baga Tarkan'dır. Para cinsleri: Yarmak (madeni), Satir (gümüş disk), Kamdu / Kuanpoyu / Böz (bez para), Çav (kağıt para - Uygurlar)."}
+          ],
+          "keywords": ["İpek Yolu", "Kürk Yolu", "Töte Kanalı", "Baga Tarkan", "Yarmak", "Çav"]
+        }
+      ]
+    },
+    {
+      "id": "yazi_dil_ve_edebiyat",
+      "title": "Yazı, Dil ve Edebiyat",
+      "subtitle": "Alfabeler, sözlü edebiyat, destanlar ve yazılı yazıtlar",
+      "sections": [
+        {
+          "title": "Alfabeler",
+          "bullets": [
+            {"label": "Milli Alfabeler", "text": "Orhon (Göktürk - 38 harf) ve Uygur (18 harf) alfabeleri Türklerin milli alfabeleridir."},
+            {"label": "Kullanılan Diğer Alfabeler", "text": "Soğd, Brahmi, Süryani, Arap, Kiril ve Latin alfabeleri kullanılmıştır (Sanskritçe kullanılmamıştır)."}
+          ],
+          "keywords": ["Orhon Alfabesi", "Uygur Alfabesi", "Milli Alfabe"]
+        },
+        {
+          "title": "Sözlü Edebiyat ve Destanlar",
+          "bullets": [
+            {"label": "Sözlü Türler", "text": "Sav (atasözü), Koşuk (kopuz eşliğinde şiir), Sagu (ağıt) ve Dede Korkut Hikayeleri (Oğuz-Kıpçak mücadelesi)."},
+            {"label": "Destanlar", "text": "Alper Tunga (İskitler), Oğuz Kağan (Asya Hun — Mete Han), Ergenekon ve Bozkurt (Göktürkler), Türeyiş ve Göç (Uygurlar), Attila ve Sihirli Geyik (Avrupa Hunları), Manas (Kırgızlar — dünyanın en uzun destanı)."}
+          ],
+          "keywords": ["Sav", "Koşuk", "Sagu", "Dede Korkut", "Manas Destanı"]
+        },
+        {
+          "title": "Yazılı Edebiyat ve Yazıtlar",
+          "bullets": [
+            {"label": "Yenisey Kitabeleri", "text": "Kırgızlara aittir; bilinen en eski kitabelerdir ancak edebi cümle yapısı taşımaz."},
+            {"label": "Orhun Abideleri", "text": "II. Göktürk (Kutluk) Devleti döneminde dikilmiştir. Türk edebiyat tarihinin ilk yazılı eseri ve ilk siyasetnamesidir. Moğolistan sınırlarındadır; Runik yazı çeşidiyle (Orhunca ve bir kısmı Çince) yazılmıştır."},
+            {"label": "Dikilen Kişiler ve Çözümü", "text": "Vezir Tonyukuk (725 — kendi anıtını kendi yazdığı için ilk Türk tarihçisi ve yazarı), Kültigin (732) ve Bilge Kağan (735 — Yolluğ Tigin yazdı) adına dikilmiştir. Hakkında ilk bilgi Cüveyni'nin Tarih-i Cihangüşa eserinde geçer; Strahlenberg bulmuş, Danimarkalı filolog William Thomsen çözmüştür (ilk çözülen kelime: Tengri)."},
+            {"label": "Diğer Yazıtlar", "text": "Bugut Yazıtları (I. Göktürklerin en eski kitabesi), Taryat, Sine-Uşi (Moyen Çor dönemi, Göktürk harfleriyle) ve Karabalsagun (Uygurların Maniheizm'e geçişi; Türkçe, Soğdça, Çince)."}
+          ],
+          "keywords": ["Yenisey Kitabeleri", "Orhun Abideleri", "Runik", "Vezir Tonyukuk", "William Thomsen", "Karabalsagun"]
+        }
+      ]
+    }
+  ]
+}

@@ -8,11 +8,18 @@
       "file": "assets/data/islamiyet_oncesi.json"
     },
     {
-      "id": "islamiyet_sonrasi",
-      "title": "İslamiyet Sonrası Türk Tarihi",
+      "id": "islamiyet_oncesi_kultur",
+      "title": "İslamiyet Öncesi Kültür ve Medeniyet",
+      "subtitle": "Devlet, hukuk, ordu, din, bilim, sanat ve edebiyat",
+      "emoji": "🏛️",
+      "file": "assets/data/islamiyet_oncesi_kultur.json"
+    },
+    {
+      "id": " İlk Türk İslam Devletleri",
+      "title": " İlk Türk İslam Devletleri",
       "subtitle": "İlk Türk-İslam devletleri, Selçuklular",
       "emoji": "🕌",
-      "file": null
+      "file": "assets/data/ilk_turk_islam.json"
     },
     {
       "id": "osmanli_kurulus",
